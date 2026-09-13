@@ -120,7 +120,7 @@ When the model changes, the areas, volumes, and labels in the drawings update wi
 
 Other attribute keys available to Auto-Text: `1zone`, `2flrlevel`, `7ahu`, `8outdoorunit`, `9hrvunit`, `flrarea`, `vv`, `dphunits`.
 
-### Download and Install: [Latest Release](https://github.com/ed-p-may/dPH_Plus_Rooms/releases/latest)
+### Download and Install: [Latest Release](https://github.com/PH-Tools/dPH_Plus_Rooms/releases/latest)
 
 Download the `.rbz` file from the latest release. In SketchUp, open *Window > Extension Manager*, click *Install Extension*, and select the `.rbz` file. Alternatively, copy `bt_dphPlus_rooms_Load.rb` and the `bt_dphPlus_rooms` folder into your SketchUp `Plugins` directory (on macOS: `~/Library/Application Support/SketchUp 20XX/SketchUp/Plugins`).
 
