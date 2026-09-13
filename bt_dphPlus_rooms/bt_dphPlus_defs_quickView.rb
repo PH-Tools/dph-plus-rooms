@@ -42,7 +42,7 @@ module BT
 			end
 
 			#Show the quick view message
-			msgTxt = <<~HEREDOC
+			msgTxt = <<-EOF
 			#{_sel.count} Objects Selected
 			#{sel_tfa_total.count} of them are valid dPH+ Room Objects
 			
@@ -50,7 +50,7 @@ module BT
 			-Total TFA: #{sel_tfa_total.sum.round(1)} ft2 [ #{(sel_tfa_total.sum * 0.092903).round(1)} m2 ]
 			-Total Vn50: #{sel_vn50_total.sum.round(1)} ft3 [ #{(sel_vn50_total.sum * 0.0283168).round(1)} m3 ]
 			-Total Vv: #{sel_vv_total.sum.round(1)} ft3  [#{(sel_vv_total.sum * 0.0283168).round(1)} m3 ]
-			HEREDOC
+			EOF
 
 			UI.messagebox(msgTxt, MB_OK)
 

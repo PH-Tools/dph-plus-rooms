@@ -6,8 +6,8 @@ module BT
 
     module DPH_Plus_Rooms
     # Info
-      EXTVERSION            = "1.2"
-      EXTREVDATE            = "June 22, 2019"
+      EXTVERSION            = "1.2.1"
+      EXTREVDATE            = "June 18, 2021"
       EXTTITLE              = "dPH+ Rooms"
       EXTNAME               = "bt_dphPlus_rooms"
       EXTDESCRIPTION        = "For modeling and managing room data through dynamic components"
